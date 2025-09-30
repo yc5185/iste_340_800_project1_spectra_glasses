@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Glasses Web Shop</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Materialize CSS & Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="green darken-2">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo">Spectra Glasses</a>
+      <a href="#" data-target="mobile-menu" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#about" class="white-text text-lighten-3">About Us</a></li>
+        <li><a href="#shop" class="white-text text-lighten-3">Shop</a></li>
+        <li><a href="#contact" class="white-text text-lighten-3">Contact</a></li>
+        <li><a href="#cart"><i class="material-icons white-text text-lighten-3">shopping_cart</i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Mobile Sidenav -->
+  <ul class="sidenav" id="mobile-menu">
+    <li><a href="#about" class="green-text text-darken-4">About Us</a></li>
+    <li><a href="#shop" class="green-text text-darken-4">Shop</a></li>
+    <li><a href="#contact" class="green-text text-darken-4">Contact</a></li>
+    <li><a href="#cart"><i class="material-icons left green-text">shopping_cart</i></a></li>
+  </ul>
+
+  <!-- Hero Section -->
+  <div class="section center-align hero-section">
+    <div class="container">
+      <h3 class="white-text">Find Your Perfect Glasses</h3>
+      <p class="white-text text-lighten-4">Choose a model, frame color, and dioptre strength.</p>
+      <a class="btn light-green lighten waves-effect waves-light" href="#shop">Shop Now</a>
+    </div>
+  </div>
+
+
+  <!-- Shop Section -->
+  <div id="shop" class="section grey lighten-4">
+    <div class="container">
+      <div class="row">
+
+        <!-- Customize Column -->
+        <div class="col s12 m6">
+          <h5 class="green-text text-darken-2">Customize</h5>
+            <div id="div-selects"></div>
+          <a class="btn light-green lighten waves-effect waves-light">Add to Cart</a>
+        </div>
+
+        <!-- Preview Column -->
+        <div class="col s12 m6">
+          <h5 class="green-text text-darken-2">Preview</h5>
+          <div class="card">
+            <div class="card-image center-align image-wrapper">
+              <img id="glasses-image" src="media/undefined-undefined.png" alt="Sample Glasses">
+            </div>
+            <div class="card-action center-align">
+              <a href="checkout.html" class="btn light-green lighten waves-effect waves-light">Proceed to Checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Us -->
+  <div id="about" class="section about-section">
+    <div class="container">
+      <h4 class="center-align green-text text-darken-3">About Us</h4>
+
+      <!-- Intro paragraph -->
+      <div class="row">
+        <div class="col s12">
+          <p class="blue-grey-text text-darken-2 center-align" style="max-width: 800px; margin: auto;">
+            At <strong>Spectra Glasses</strong>, we believe eyewear is more than just a necessity — it is a key part of
+            personal style and vision clarity. Founded on innovation and customer care, we offer quality glasses
+            combining comfort, precision, and modern design. Whether prescription, fashion, or sport frames, we empower
+            our customers to find their perfect fit.
+            <br><br>
+            We strive to make stylish, high-quality eyewear accessible to everyone without compromise. Our expert team
+            ensures each product meets rigorous standards of durability and comfort. We regularly update our collections
+            to keep up with the latest styles and lens technologies.
+            <br><br>
+            Customer satisfaction is our priority. We are committed to providing a smooth shopping experience tailored
+            to each individual. At Spectra Glasses, you don’t just wear glasses — you wear confidence.
+          </p>
+        </div>
+      </div>
+
+      <!-- Cards -->
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-content center">
+              <i class="material-icons large blue-text text-darken-3">visibility</i>
+              <span class="card-title blue-text text-darken-3">Our Vision</span>
+              <p>
+                We aim to make high-quality eyewear accessible for everyone. Our goal is to redefine how people see the
+                world by offering frames that balance function and fashion seamlessly.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-content center">
+              <i class="material-icons large light-green-text text-darken-2">verified</i>
+              <span class="card-title light-green-text text-darken-2">Our Quality</span>
+              <p>
+                Each pair of glasses is crafted with precision using advanced materials. Rigorous testing ensures
+                durability, comfort, and accuracy so that your vision remains our highest standard.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-content center">
+              <i class="material-icons large red-text text-darken-2">favorite</i>
+              <span class="card-title red-text text-darken-2">Our Promise</span>
+              <p>
+                We promise to deliver not only eyewear that enhances your sight but also a customer experience rooted in
+                trust, care, and satisfaction. Your confidence is our mission.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Closing line -->
+      <div class="row">
+        <div class="col s12 center-align">
+          <p class="blue-grey-text text-darken-2" style="max-width: 700px; margin: auto;">
+            Join thousands of happy customers who trust Spectra Glasses to brighten their everyday lives. With us, you
+            don’t just wear glasses — you wear confidence.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Contact Us -->
+  <div id="contact" class="section contact-section green lighten-5">
+    <div class="container">
+      <h4 class="center-align green-text text-darken-3">Contact Us</h4>
+
+      <div class="row">
+        <!-- Contact Form -->
+        <form class="col s12 m8 offset-m2">
+          <!-- Name -->
+          <div class="input-field">
+            <i class="material-icons prefix green-text text-darken-3">account_circle</i>
+            <input id="name" type="text" class="validate" required>
+            <label for="name">Your Name</label>
+          </div>
+
+          <!-- Email -->
+          <div class="input-field">
+            <i class="material-icons prefix green-text text-darken-3">email</i>
+            <input id="email" type="email" class="validate" required>
+            <label for="email">Your Email</label>
+          </div>
+
+          <!-- Message -->
+          <div class="input-field">
+            <i class="material-icons prefix green-text text-darken-3">message</i>
+            <textarea id="message" class="materialize-textarea validate" required></textarea>
+            <label for="message">Your Message</label>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="center-align">
+            <button class="btn light-green lighten waves-effect waves-light" type="submit">
+              Send <i class="material-icons right white-text text-darken-3">send</i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer green darken-3">
+    <div class="center-align white-text" style="padding-bottom: 20px;">© 2025 Spectra Glasses Shop</div>
+  </footer>
+
+  <!-- Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>
